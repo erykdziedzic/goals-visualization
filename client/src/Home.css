@@ -1,0 +1,123 @@
+.Home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content {
+  align-items: space-around;
+  -moz-box-shadow: 0 0 40px -10px #0009;
+  -webkit-box-shadow: 0 0 40px -10px #0009;
+  box-shadow: 0 0 40px -10px #0009;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  width: 90vw;
+}
+
+.DataColumns {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.dataColumn {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 16px;
+}
+
+.status {
+  align-items: center;
+  border-radius: 4px;
+  color: #0E151A;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-grow: 1;
+  height: calc(16% - 16px);
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.achieved {
+  background-color: #79faa0;
+}
+
+.almost {
+  background-color: #f18b62;
+}
+
+.failed {
+  background-color: #e94a52;
+}
+
+.progressBar {
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 4px;
+  display: flex;
+  flex-grow: 1;
+  font-weight: 700;
+  height: calc(16% - 16px);
+  left: 0;
+  margin: 16px 0;
+  position: relative;
+}
+
+.progressBarValue {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.progressBarValueText {
+  color: #0E151A;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.YearlyIncomeContainer {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.YearlyIncome {
+  border: 2px solid darkgray;
+  flex-grow: 1;
+  height: 48px;
+  margin: 24px 16px;
+  margin-bottom: 0px;
+}
+
+.MonthlyIncome {
+  height: 40px;
+}
+
+.yearlyIncomeValueText {
+  top: 50%;
+  margin-top: -12px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.logoContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+img {
+  height: calc(0.3 * 411px);
+  width: calc(0.3 * 1261px);
+}
